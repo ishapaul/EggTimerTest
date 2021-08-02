@@ -11,10 +11,10 @@ This Automation project validates the Countdown Functionality of the eggtimer we
 BDD Approach could be enhanced using Cucumber Step Definitions 
 
 # Tools
-Maven
-Cucumber-JVM
-TestNG
-Selenium Webdriver
+1.Maven
+2.Cucumber-JVM
+3.TestNG
+4.Selenium Webdriver
 
 # Dependencies
 In order to utilise this project you need to have the following installed locally:
@@ -24,7 +24,9 @@ Java SE 16.0.2
 
 # Usage
 
-To run the tests, navigate to EggTimerTest directory and run:
+To run the tests using TestNg, import the project to an IDE(e.g. Eclipse)-> Right click on the TestNGRunner.xml -> Run as TestNGSuite
+
+To run the tests using maven, navigate to EggTimerTest directory and run:
 
 mvn clean install
 
